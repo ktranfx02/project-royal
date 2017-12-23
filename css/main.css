@@ -83,7 +83,8 @@ a {
 	grid-template-columns: 1fr 5fr 1fr;
 	grid-template-rows: minmax(1080px, auto);
 	background: url("../images/cinema.png") no-repeat;
-	background-size: 100%;
+	background-size: cover; /*The background image stop resizes when it hits
+	1000px in height. That is because we declared the rule above*/
 	justify-items: center;
 }
 
