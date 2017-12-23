@@ -27,17 +27,27 @@ a {
 	padding:20px 35px;
 }
 
-.navbar a:hover{
-	color:black;
-	background-color:white;
+.navbar a:hover {
+	color: black;
+	background-color: white;
 }
 
-.navbar-link-container{
-	padding:20px 0px;
+.navbar-link-container {
+	padding: 20px 0px;
 	/*border:1px solid white;*/
-	text-align:center;
+	text-align: center;
 }
 
-.slideshow img{
-	width:100%;
+.slideshow {
+	display: grid;
+	color: white;
+	grid-template-columns: 1fr 5fr 1fr;
+	grid-template-rows: minmax(1080px, auto);
+	background: url("../images/cinema.png");
+	background-size: 100%;
+	justify-items:center;
+}
+
+.slideshow div {
+	border: 1px solid white;
 }
