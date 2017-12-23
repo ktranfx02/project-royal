@@ -1,0 +1,32 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+@font-face{
+	font-family: cooper;
+	src: url("../assets/cooper.otf");
+}
+
+a {
+	font-family: cooper;
+	text-decoration: none;
+}
+
+.navbar {
+	padding:35px 0px;
+	border:1px solid black;
+}
+
+.navbar a {
+	color: black;
+	border:1px solid black;
+	text-transform: uppercase;
+	padding:0px 35px;
+}
+
+.navbar-link-container{
+	border:1px solid black;
+	text-align:center;
+}
