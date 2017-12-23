@@ -43,11 +43,15 @@ a {
 	color: white;
 	grid-template-columns: 1fr 5fr 1fr;
 	grid-template-rows: minmax(1080px, auto);
-	background: url("../images/cinema.png");
+	background: url("../images/cinema.png") no-repeat;
 	background-size: 100%;
 	justify-items:center;
 }
 
 .slideshow div {
 	border: 1px solid white;
+}
+
+.slideshow div img:nth-child(odd){
+	width:35px;
 }
