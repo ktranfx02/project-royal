@@ -139,6 +139,7 @@ a {
 
 .movie-showcase div {
 	/*border: 1px solid black;*/
+	cursor: pointer;
 }
 
 /*.movie-showcase div:nth-child(1) {
@@ -200,4 +201,16 @@ a {
 }
 
 /*=================================================*/
+
+.movie-showcase div h1 {
+	padding-top: 70px;
+	/*border: 1px solid black;*/
+}
+
+.movie-showcase div p {
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 25px;
+}
 
