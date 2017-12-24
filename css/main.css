@@ -87,7 +87,7 @@ a {
 	color: white;
 	grid-template-columns: 1fr 5fr 1fr;
 	grid-template-rows: minmax(1080px, auto);
-	background: url("../images/cinema.png") no-repeat;
+	background: url("../images/cinema_b.png") no-repeat;
 	background-size: cover; /*The background image stop resizes when it hits
 	1000px in height. That is because we declared the rule above*/
 	justify-items: center;
@@ -124,12 +124,13 @@ a {
 	width: 65%;
 	display: block;
 	margin: 0 auto;
-	border: 1px solid black;
-	margin-top: 200px;
+	/*border: 1px solid black;*/
+	margin-top: 150px;
 }
 
 .movie-showcase{
 	display: grid;
+	color: white;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(3, 350px);
 	grid-gap: 50px;
@@ -154,47 +155,47 @@ a {
 /*This needs to be executed in JS*/
 
 .movie-showcase div:nth-child(1) {
-	background: url("../images/coat.png") no-repeat;
+	background: url("../images/coat_b.png") no-repeat;
 	background-size: cover;
 }
 
 .movie-showcase div:nth-child(2) {
-	background: url("../images/light.png") no-repeat;
+	background: url("../images/light_b.png") no-repeat;
 	background-size: cover;
 }
 
 .movie-showcase div:nth-child(3) {
-	background: url("../images/wall.png") no-repeat;
+	background: url("../images/wall_b.png") no-repeat;
 	background-size: cover;
 }
 
 .movie-showcase div:nth-child(4) {
-	background: url("../images/cinema.png") no-repeat;
+	background: url("../images/cinema_b.png") no-repeat;
 	background-size: cover;
 }
 
 .movie-showcase div:nth-child(5) {
-	background: url("../images/coat.png") no-repeat;
+	background: url("../images/coat_b.png") no-repeat;
 	background-size: cover;
 }
 
 .movie-showcase div:nth-child(6) {
-	background: url("../images/light.png") no-repeat;
+	background: url("../images/light_b.png") no-repeat;
 	background-size: cover;
 }
 
 .movie-showcase div:nth-child(7) {
-	background: url("../images/wall.png") no-repeat;
+	background: url("../images/wall_b.png") no-repeat;
 	background-size: cover;
 }
 
 .movie-showcase div:nth-child(8) {
-	background: url("../images/cinema.png") no-repeat;
+	background: url("../images/cinema_b.png") no-repeat;
 	background-size: cover;
 }
 
 .movie-showcase div:nth-child(9) {
-	background: url("../images/coat.png") no-repeat;
+	background: url("../images/coat_b.png") no-repeat;
 	background-size: cover;
 }
 
