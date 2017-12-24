@@ -1,3 +1,6 @@
+/*====================================*/
+/*This needs to be executed in JS*/
+
 @media screen and (max-width: 1280px) {
     .navbar a:nth-child(7) {
     	display: none;
@@ -33,6 +36,8 @@
 		display: none;
 	}
 }
+
+/*====================================*/
 
 *{
 	margin:0;
@@ -119,14 +124,16 @@ a {
 	width: 65%;
 	display: block;
 	margin: 0 auto;
-	/*border: 1px solid black;*/
+	border: 1px solid black;
+	margin-top: 200px;
 }
 
 .movie-showcase{
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: repeat(3, 300px);
+	grid-template-rows: repeat(3, 350px);
 	grid-gap: 50px;
+	text-align: center;
 }
 
 .movie-showcase div {
@@ -142,3 +149,54 @@ a {
 	background: url("../images/coat.png") no-repeat;
 	background-size: cover;
 }*/
+
+/*=================================================*/
+/*This needs to be executed in JS*/
+
+.movie-showcase div:nth-child(1) {
+	background: url("../images/coat.png") no-repeat;
+	background-size: cover;
+}
+
+.movie-showcase div:nth-child(2) {
+	background: url("../images/light.png") no-repeat;
+	background-size: cover;
+}
+
+.movie-showcase div:nth-child(3) {
+	background: url("../images/wall.png") no-repeat;
+	background-size: cover;
+}
+
+.movie-showcase div:nth-child(4) {
+	background: url("../images/cinema.png") no-repeat;
+	background-size: cover;
+}
+
+.movie-showcase div:nth-child(5) {
+	background: url("../images/coat.png") no-repeat;
+	background-size: cover;
+}
+
+.movie-showcase div:nth-child(6) {
+	background: url("../images/light.png") no-repeat;
+	background-size: cover;
+}
+
+.movie-showcase div:nth-child(7) {
+	background: url("../images/wall.png") no-repeat;
+	background-size: cover;
+}
+
+.movie-showcase div:nth-child(8) {
+	background: url("../images/cinema.png") no-repeat;
+	background-size: cover;
+}
+
+.movie-showcase div:nth-child(9) {
+	background: url("../images/coat.png") no-repeat;
+	background-size: cover;
+}
+
+/*=================================================*/
+
