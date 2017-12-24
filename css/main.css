@@ -125,10 +125,20 @@ a {
 .movie-showcase{
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: repeat(3, 200px);
+	grid-template-rows: repeat(3, 300px);
 	grid-gap: 50px;
 }
 
 .movie-showcase div {
 	/*border: 1px solid black;*/
 }
+
+/*.movie-showcase div:nth-child(1) {
+	================================================
+	//background-image can only take url() as value
+	background-image: url("../images/coat.png");
+	background-repeat: no-repeat;
+	================================================
+	background: url("../images/coat.png") no-repeat;
+	background-size: cover;
+}*/
