@@ -114,3 +114,21 @@ a {
 	cursor:pointer;
 	padding-top: 435px;
 }
+
+.movie-showcase-container {
+	width: 65%;
+	display: block;
+	margin: 0 auto;
+	/*border: 1px solid black;*/
+}
+
+.movie-showcase{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 200px);
+	grid-gap: 50px;
+}
+
+.movie-showcase div {
+	/*border: 1px solid black;*/
+}
