@@ -60,13 +60,13 @@ a {
 
 .navbar {
 	padding:35px 0px;
-	border:1px solid white;
+	/*border:1px solid white;*/
 	background-color:black;
 }
 
 .navbar a {
 	color: white;
-	border:1px solid white;
+	/*border:1px solid white;*/
 	text-transform: uppercase;
 	padding:20px 35px;
 }
@@ -78,7 +78,7 @@ a {
 
 .navbar-link-container {
 	padding: 20px 0px;
-	border:1px solid white;
+	/*border:1px solid white;*/
 	text-align: center;
 }
 
@@ -216,21 +216,26 @@ a {
 
 .footer-container {
 	padding: 100px 0px;
-	border: 1px solid black;
+	/*border: 1px solid white;*/
+	background-color: black;
+	margin-top: 150px;
 }
 
 .footer-container .footer-section:nth-child(1) {
-	margin-top: -50px;
+	margin-top: -10px;
 }
 
 .footer-section {
 	text-align: center;
-	border: 1px solid black;
-	margin-top: 25px;
+	/*border: 1px solid white;*/
+	margin-top: 10px;
 	padding: 10px;
 }
 
 .footer-section a {
 	padding: 10px;
-	border: 1px solid black;
+	color: white;
+	/*border: 1px solid white;*/
+	margin-left: 125px;
+	margin-right: 125px;
 }
